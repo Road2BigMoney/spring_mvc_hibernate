@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @SuppressWarnings("ALL")
 @Controller
-@RequestMapping("/index")
+@RequestMapping("/users")
 public class UsersController {
     private final UserDAO userDAO;
 
